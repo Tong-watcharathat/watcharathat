@@ -2,6 +2,9 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/3bf96b0093.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -30,6 +33,46 @@
             development, back-end development, and UX design, utilising various programming frameworks, and
             I am currently employed in this factory.</p>
         </div>
+
+
+        <!-- ABOUT -->
+        <div class="about">
+          <h1 id="about">About Me</h1>
+          <p>I received my BSc in Computer Science from <span>Kasem Bundit University</span> in Thailand. I
+            had worked as a
+            junior web developer in South Korea for two years. <br> Because of my work experience both in
+            Thailand and abroad,
+            I can relate to people of various backgrounds and nationalities.</p>
+        </div>
+
+        <!-- PROJECT -->
+        <div class="project">
+          <h1 id="project">Project</h1>
+          <ul>
+            <li>Hospital Information Support</li>
+            <li>Nurse Care on Ipad</li>
+          </ul>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="contact">
+          <h1 id="contact">Contact</h1>
+          <p>I am looking forward to working with you.</p>
+          <p>+66 (0) 95 878 4063</p>
+          <!-- <p>watcharathat.th@gmail.com</p> -->
+          <p><a href="mailto:watcharathat.th@gmail.com" target="_blank"
+                  style="text-decoration: none; color: white;">watcharathat.th@gmail.com</a></p>
+          <p>Sukhumvit 105 St., Bangkok, Thailand</p>
+          <div class="media">
+              <a href="https://www.facebook.com/charathat" target="_blank" class="fa-brands fa-facebook"></a>
+              <a href="https://www.instagram.com/tong.watcharathat/" target="_blank"
+                  class="fa-brands fa-instagram"></a>
+              <a href="https://twitter.com/chodngongo" target="_blank" class="fa-brands fa-twitter"></a>
+              <a href="https://www.linkedin.com/in/watcharathat-p-18501518b/" target="_blank"
+                  class="fa-brands fa-linkedin"></a>
+              <!-- <a href="mailto:watcharathat.th@gmail.com" target="_blank" class="fa-regular fa-envelope"></a> -->
+          </div>
+      </div>
       </article>
     </div>
   </section>
@@ -44,6 +87,14 @@
     font-family: 'Abril Fatface', cursive;
     font-family: 'Merriweather Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+  }
+
+  .scroller {
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
   }
 
   .ground {
@@ -113,61 +164,178 @@
     cursor: pointer;
   }
 
-  .home{
+  .home {
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 13%;
-}
-.home h1{
+  }
+
+  .home h1 {
     color: #ea1538;
     margin: 0px 0px 30px 4px;
     /* font-size: clamp(1rem, 2.5vw, 2rem); */
-}
-.home h3{
+  }
+
+  .home h3 {
     color: white;
     margin: 0px 0px 30px 4px;
     font-size: clamp(1rem, 10vw, 2rem);
-}
-.home p{
+  }
+
+  .home p {
     color: white;
     /* margin: 20px 0px 4px; */
     margin: 0px 0px 30px 4px;
     max-width: 540px;
 
   }
+
+  .about {
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 13%;
+  }
+
+  .about h1 {
+    color: white;
+    margin: 0px 0px 30px 4px;
+    /* font-size: 1.2em; */
+    font-size: clamp(1rem, 2.5vw, 2rem);
+  }
+
+  .about h3 {
+    color: white;
+    margin: 0px 0px 30px 4px;
+    font-size: clamp(1rem, 10vw, 2rem);
+  }
+
+  .about p {
+    color: white;
+    /* margin: 20px 0px 4px; */
+    margin: 0px 0px 30px 4px;
+    /* max-width: 700px; */
+
+
+  }
+
+  .about span {
+    color: #ea1538;
+  }
+
+  .project{
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 13%;
+}
+.project h1{
+    color: white;
+    margin: 0px 0px 30px 4px;
+    /* font-size: 1.2em; */
+    font-size: clamp(1rem, 2.5vw, 2rem);
+}
+.project h3{
+    color: white;
+    margin: 0px 0px 30px 4px;
+    font-size: clamp(1rem, 10vw, 2rem);
+}
+.project p{
+    color: white;
+    /* margin: 20px 0px 4px; */
+    margin: 0px 0px 30px 4px;
+    max-width: 540px;
+
+}
+.project li{
+    color: white;
+    /* margin: 20px 0px 4px; */
+    margin: 0px 0px 30px 4px;
+    max-width: 540px;
+
+}
+.project span{
+    color: #ea1538;
+}
+
+.contact{
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    padding-bottom: 2%;
+    padding-left: 13%;
+}
+.contact h1{
+    color: white;
+    margin: 0px 0px 30px 4px;
+    /* font-size: 1.2em; */
+    font-size: clamp(1rem, 2.5vw, 2rem);
+}
+.contact h3{
+    color: white;
+    margin: 0px 0px 30px 4px;
+    font-size: clamp(1rem, 10vw, 2rem);
+}
+.contact p{
+    color: white;
+    /* margin: 20px 0px 4px; */
+    margin: 0px 0px 30px 4px;
+    max-width: 540px;
+
+}
+.contact span{
+    color: #ea1538;
+}
+
+.media a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding-right: 10px;
+}
+
+.media a:hover{
+    opacity: 0.7;
+    /* color: #ea1538; */
+    color: skyblue;
+    transition: .3s;
+}
+
   @media only screen and (max-width: 700px) {
-    nav ul li a{
+    nav {
+      padding: 40 0 0 3%;
+    }
+
+    nav ul li a {
       display: none;
     }
-    .button_resume{
-        display: none;
-    }
-    nav .sticky{
-        display: none;
-    }
-    nav h2{
-        display: flex;
-    }
-    .contact{
 
-        padding-bottom: 10%;
+    .button_resume {
+      display: none;
     }
 
-    .home{
-        margin-top: 10%;
-        margin-left: 0%;
-        margin-right: 0%;
-        padding-left: 3%;
+    .contact {
+
+      padding-bottom: 10%;
     }
 
-    .home h3{
-        margin: 0px 0px 30px 4px;
-        font-size: 25px;
+    .home {
+      margin-top: 10%;
+      margin-left: 0%;
+      margin-right: 0%;
+      padding-left: 3%;
     }
-    .home p{
-        margin: 0px 60px 0px 10px;
-        /* max-width: 540px; */
+
+    .home h3 {
+      margin: 0px 0px 30px 4px;
+      font-size: 25px;
     }
-}
+
+    .home p {
+      margin: 0px 60px 0px 10px;
+      /* max-width: 540px; */
+    }
+  }
 </style>
